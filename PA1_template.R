@@ -1,5 +1,8 @@
 ## ----loaddata------------------------------------------------------------
 unzip(zipfile="activity.zip")
+
+setwd("C:/R/Reproducible Research/RepData_Assessment1")
+
 data <- read.csv("activity.csv")
 
 
